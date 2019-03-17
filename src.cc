@@ -6,6 +6,7 @@
 #include <cassert>
 #include <string>
 #include <algorithm>
+#include <stack>
 
 #include "src.h"
 

@@ -1,6 +1,5 @@
 // c++ primer5
 
-
 #include "src.h"
 #include <queue>
 #include <unordered_map>
@@ -14,9 +13,17 @@
 using namespace std;
 
 int main() {
+    //test
+    c12::test(); 
+    c12::CC pt;
 
-    c12::test();
 
     return 0;
+}//end main
+
+
+void test() {
+
+
 
 }

@@ -1,5 +1,6 @@
 #ifndef SRC_H_
-#define SRC_H_
+#define SRC_H
+
 
 #include <iostream>
 #include <string>
@@ -287,25 +288,6 @@ namespace c12 {
         cout << up[1].size();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
