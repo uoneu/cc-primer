@@ -15,15 +15,8 @@ using namespace std;
 int main() {
     //test
     c12::test(); 
-    c12::CC pt;
-
-
+    
     return 0;
 }//end main
 
 
-void test() {
-
-
-
-}

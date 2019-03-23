@@ -10,7 +10,6 @@
 
 #include "src.h"
 
-
 namespace c1 {
     std::istream& operator>> (std::istream &is, Sales_item &book) {
         is >> book.bookNo;
@@ -42,7 +41,6 @@ namespace c2 {
     int j = 9;
     constexpr int *p = &j;
 
-
 }
 
 
@@ -67,6 +65,7 @@ namespace c6 {
     int add (int a, int b) {
         return a+b;
     }
+    
 
     void test() {
         using namespace std;

@@ -21,7 +21,8 @@ namespace c1 {
     public:
         friend std::istream& operator>> (std::istream &is, Sales_item &book);
         friend std::ostream& operator<< (std::ostream &os, const Sales_item &book);
-        friend Sales_item operator+(const Sales_item &lhs, const Sales_item &rhs);//const左值引用可以绑定右值
+        friend Sales_item operator+(const Sales_item &lhs, const Sales_item &rhs);
+        //const左值引用可以绑定右值
 
         Sales_item() = default;
         Sales_item(const std::string &s, unsigned cnt, double price) {
@@ -129,7 +130,7 @@ namespace c3 {
 
 
 namespace c5 {
-
+    
     inline void test() {
         using namespace std;
 
@@ -143,7 +144,6 @@ namespace c5 {
         }
     }
 }
-
 
 
 
@@ -239,12 +239,8 @@ namespace c7 {
         Sales_item s = b1+b2;
         cout << (b1+b2);
     
-
-
-
     }
 }
-
 
 
 
@@ -272,18 +268,10 @@ namespace c10 {
 
 namespace c12 {
     
-    class CC {
-        public :
-        virtual CC () {
-
-        }
-    };
-    
     inline void test(void) {
         using namespace std;
         unique_ptr<string[]> up(new string[10]);
         up[1] = "123";
-
 
         cout << up[1].size();
     }
